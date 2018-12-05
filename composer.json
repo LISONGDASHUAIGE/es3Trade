@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "easyswoole/easyswoole": "3.x-dev",
+        "easyswoole/mysqli": "^1.1",
+        "topthink/think-validate": "^1.0"
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
+}

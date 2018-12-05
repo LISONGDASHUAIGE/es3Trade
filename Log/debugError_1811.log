@@ -1,0 +1,8 @@
+18-11-21 14:27:13:Error at file[/www/wwwroot/swoole/vendor/easyswoole/easyswoole/src/ServerManager.php] line[58] message:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501]. Error: Address already in use[98]. in /www/wwwroot/swoole/vendor/easyswoole/easyswoole/src/ServerManager.php:58
+Stack trace:
+#0 /www/wwwroot/swoole/vendor/easyswoole/easyswoole/src/ServerManager.php(58): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/swoole/vendor/easyswoole/easyswoole/src/Core.php(83): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 'WEB_SERVER', '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/swoole/vendor/easyswoole/easyswoole/bin/easyswoole.php(182): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/swoole/easyswoole(1): require('/www/wwwroot/sw...')
+#4 {main}
+  thrown]
